@@ -12,7 +12,7 @@
 export var DELETE = 'delete';
 
 // Constants describing the size of trie nodes.
-export var SHIFT = 5; // Resulted in best performance after ______?
+export var SHIFT = 2; // Resulted in best performance after ______?
 export var SIZE = 1 << SHIFT;
 export var MASK = SIZE - 1;
 

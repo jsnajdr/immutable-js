@@ -84,7 +84,7 @@
 	var DELETE = 'delete';
 
 	// Constants describing the size of trie nodes.
-	var SHIFT = 5; // Resulted in best performance after ______?
+	var SHIFT = 2; // Resulted in best performance after ______?
 	var SIZE = 1 << SHIFT;
 	var MASK = SIZE - 1;
 
